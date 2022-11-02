@@ -16,7 +16,7 @@ end
 
 def get_words(word)
   @current_word = ''
-  word.each do |character|
+  word.split.each do |character|
     get_letters(character)
     @current_word += get_letters(character)
   end
@@ -25,11 +25,11 @@ end
 
 def get_sentences(sentence)
   @current_sentence = ''
-  sentence.each do |word|
+  sentence.split.each do |word|
     get_words(word)
     @current_sentence += get_words(word) + ' '
   end
   @current_sentence
 end
 
-get_sentences('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+puts get_sentences('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
