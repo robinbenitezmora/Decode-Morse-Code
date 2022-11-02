@@ -5,7 +5,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-git clone https://github.com/cmolinan/Decode-Morse-Code in your terminal
+git clone https://github.com/robinbenitezmora/Decode-Morse-Code in your terminal
 
 Then, using your IRB program, you can decode a message like this, using the decode_all method:
 decode_all(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
