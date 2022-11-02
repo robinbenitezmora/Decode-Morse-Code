@@ -8,12 +8,17 @@ To get a local copy up and running follow these simple steps.
 git clone https://github.com/robinbenitezmora/Decode-Morse-Code in your terminal
 
 Then, using your IRB program, you can decode a message like this, using the decode_all method:
-decode_all(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
-Output: => "A BOX FULL OF RUBIES"
-
+```
+puts decode_all(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+# Output: => "A BOX FULL OF RUBIES"
+```
 ## Decoding morse code
 
-![morse-code](https://user-images.githubusercontent.com/69157785/199612566-f9dbb308-f933-4112-8106-268a546c4e9a.png)
+![1_8VvpVJUPjj8C-i7i1d8-tQ](https://user-images.githubusercontent.com/69157785/199613212-c447df34-fb08-4b17-bcd6-866a6f551b23.png)
+
+try:
+![newone](https://user-images.githubusercontent.com/69157785/199613322-f857dc3e-532c-475d-9555-f187e4a33a56.png)
+
 
 ## Authors
 
