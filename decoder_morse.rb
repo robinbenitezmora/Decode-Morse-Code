@@ -22,3 +22,14 @@ def get_words(word)
   end
   @current_word
 end
+
+def get_sentences(sentence)
+  @current_sentence = ''
+  sentence.each do |word|
+    get_words(word)
+    @current_sentence += get_words(word) + ' '
+  end
+  @current_sentence
+end
+
+get_sentences('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
