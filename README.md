@@ -11,6 +11,12 @@ Then, using your IRB program, you can decode a message like this, using the deco
 decode_all(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
 Output: => "A BOX FULL OF RUBIES"
 
+## Decoding morse code
+
+![morse-code](https://user-images.githubusercontent.com/69157785/199612566-f9dbb308-f933-4112-8106-268a546c4e9a.png)
+
+## Authors
+
 👤 **Robin Benitez Mora**
 
 - GitHub: [@robinbenitezmora](https://github.com/robinbenitezmora)
@@ -28,7 +34,7 @@ Output: => "A BOX FULL OF RUBIES"
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdullateef-bello/)
 
 
-## �� Contributing
+## Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page.
 Feel free to check the [issues page](../../issues/).
@@ -37,5 +43,5 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 ## Acknowledgments 
 Thanks to all Microverse partners for their advice.
-## �� License
+## License
 This project is [MIT](./MIT.md) licensed.
