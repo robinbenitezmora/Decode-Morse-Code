@@ -36,6 +36,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 Give a ⭐️ if you like this project!
 ## Acknowledgments 
-This webApp responds to a request from Microverse, which is based on the original idea of Nelson Sakwa, according to the Creative Commons License
+Thanks to all Microverse partners for their advice.
 ## �� License
 This project is [MIT](./MIT.md) licensed.
