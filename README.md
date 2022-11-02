@@ -14,11 +14,7 @@ puts decode_all(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -.
 ```
 ## Decoding morse code
 
-![1_8VvpVJUPjj8C-i7i1d8-tQ](https://user-images.githubusercontent.com/69157785/199613212-c447df34-fb08-4b17-bcd6-866a6f551b23.png)
-
-try:
-![newone](https://user-images.githubusercontent.com/69157785/199613322-f857dc3e-532c-475d-9555-f187e4a33a56.png)
-
+![decoding-morse](https://user-images.githubusercontent.com/69157785/199613411-fdc7c76b-fe76-4717-8ab6-471da6374a22.png)
 
 ## Authors
 
