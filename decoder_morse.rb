@@ -24,21 +24,10 @@ def get_words(word)
 end
 
 def get_sentences(sentence)
-  # @current_sentence = sentence.split('  ')
-  # @current_sentence.each do |word|
-  #   get_words(word)
-  # end
-    
-  # @current_sentence = ''
-  # sentence.split.each do |word|
-  #   get_words(word)
-  #   @current_sentence
-  # end
-  # @current_sentence
   @current_sentence = sentence.split('  ')
   decoded_sentence = ''
   @current_sentence.each do |word|
-    decoded_sentence += get_words(word) + ' '
+    decoded_sentence += get_words(word)
   end
   decoded_sentence
 end
