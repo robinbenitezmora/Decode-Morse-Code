@@ -5,11 +5,18 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-git clone https://github.com/cmolinan/Decode-Morse-Code in your terminal
+git clone https://github.com/robinbenitezmora/Decode-Morse-Code in your terminal
 
 Then, using your IRB program, you can decode a message like this, using the decode_all method:
-decode_all(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
-Output: => "A BOX FULL OF RUBIES"
+```
+puts decode_all(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+# Output: => "A BOX FULL OF RUBIES"
+```
+## Decoding morse code
+
+![decoding-morse](https://user-images.githubusercontent.com/69157785/199613411-fdc7c76b-fe76-4717-8ab6-471da6374a22.png)
+
+## Authors
 
 👤 **Robin Benitez Mora**
 
@@ -28,7 +35,7 @@ Output: => "A BOX FULL OF RUBIES"
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdullateef-bello/)
 
 
-## �� Contributing
+## Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page.
 Feel free to check the [issues page](../../issues/).
@@ -36,6 +43,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 Give a ⭐️ if you like this project!
 ## Acknowledgments 
-This webApp responds to a request from Microverse, which is based on the original idea of Nelson Sakwa, according to the Creative Commons License
-## �� License
+Thanks to all Microverse partners for their advice.
+## License
 This project is [MIT](./MIT.md) licensed.
