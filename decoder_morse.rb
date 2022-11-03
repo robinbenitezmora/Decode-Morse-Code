@@ -1,5 +1,5 @@
 @morse_alphabet = {
-  '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E',
+  ".-" => "A", "-..." => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E',
   '..-.' => 'F', '--.' => 'G', '....' => 'H', '..' => 'I', '.---' => 'J',
   '-.-' => 'K', '.-..' => 'L', '--' => 'M', '-.' => 'N', '---' => 'O',
   '.--.' => 'P', '--.-' => 'Q', '.-.' => 'R', '...' => 'S', '-' => 'T',
@@ -15,7 +15,7 @@ def get_letters(character)
 end
 
 def get_words(word)
-  @current_word = ''
+  @current_word = ""
   word.split.each do |character|
     get_letters(character)
     @current_word += get_letters(character)
